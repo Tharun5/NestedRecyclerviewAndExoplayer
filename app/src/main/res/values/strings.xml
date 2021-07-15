@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Saathealth Test App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_awards">Awards</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="helpTxt">• 5 points will be awarded after watching each Video.\n\n• You can go to next level by watching 3 videos at each level\n\n• There are 3 badges Gold, Silver, Bronze\n\n• After Completing Level 1 you will get Bronze badge and so on</string>
+    <string name="help">Help</string>
+
+</resources>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "623818851256",
+    "project_id": "saathealthtestapp",
+    "storage_bucket": "saathealthtestapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:623818851256:android:cf59c6c183ea259cf7854d",
+        "android_client_info": {
+          "package_name": "com.tharun.saathealthtestapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "623818851256-jkni6efe5kpu551agcug86pg3qkqtel4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvTiauTLXff6uK6ig_60xflZUzF1Xr_b0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "623818851256-jkni6efe5kpu551agcug86pg3qkqtel4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e5f5ff"
+    tools:context=".ui.Fragments.ProfileFragment">
+
+    <TextView
+        android:id="@+id/etName"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:textColor="#485155"
+        android:layout_gravity="center"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/profile_back"
+        android:paddingStart="20dp"
+        android:text="Name"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"
+        android:textColorHint="#708090"
+        tools:ignore="RtlSymmetry"
+        app:drawableLeftCompat="@drawable/ic_name" />
+
+    <TextView
+        android:id="@+id/etphno"
+        android:layout_width="320dp"
+        android:textColor="#485155"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/profile_back"
+        android:paddingStart="20dp"
+        android:text="Phone"
+        android:textColorHint="#708090"
+        android:drawablePadding="10dp"
+        tools:ignore="RtlSymmetry"
+        app:drawableStartCompat="@drawable/ic_phno" />
+
+    <TextView
+        android:id="@+id/etEmail"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/profile_back"
+        android:textColor="#485155"
+        android:textColorHint="#708090"
+        android:textSize="20sp"
+        android:paddingStart="20dp"
+        android:text="Email"
+        android:drawablePadding="10dp"
+        tools:ignore="RtlSymmetry"
+        app:drawableLeftCompat="@drawable/ic_email" />
+
+
+</LinearLayout>

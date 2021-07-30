@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/nav_dashboard"
-        android:name="com.tharun.saathealthtestapp.ui.Fragments.DashboardFragment"
+        android:name="com.tharun.nestedRecyclerviewApp.ui.Fragments.DashboardFragment"
         android:label="@string/menu_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/nav_awards"
-        android:name="com.tharun.saathealthtestapp.ui.Fragments.AwardsFragment"
+        android:name="com.tharun.nestedRecyclerviewApp.ui.Fragments.AwardsFragment"
         android:label="@string/menu_awards"
         tools:layout="@layout/fragment_awards" />
 
     <fragment
         android:id="@+id/nav_profile"
-        android:name="com.tharun.saathealthtestapp.ui.Fragments.ProfileFragment"
+        android:name="com.tharun.nestedRecyclerviewApp.ui.Fragments.ProfileFragment"
         android:label="@string/menu_profile"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/nav_help"
-        android:name="com.tharun.saathealthtestapp.ui.Fragments.HelpFragment"
+        android:name="com.tharun.nestedRecyclerviewApp.ui.Fragments.HelpFragment"
         android:label="@string/help"
         tools:layout="@layout/fragment_help" />
 </navigation>

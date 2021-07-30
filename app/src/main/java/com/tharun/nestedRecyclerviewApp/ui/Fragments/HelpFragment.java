@@ -1,4 +1,4 @@
-package com.tharun.saathealthtestapp.ui.Fragments;
+package com.tharun.nestedRecyclerviewApp.ui.Fragments;
 
 import android.os.Bundle;
 
@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.tharun.saathealthtestapp.R;
+import com.tharun.nestedRecyclerviewApp.R;
 
 
 public class HelpFragment extends Fragment {

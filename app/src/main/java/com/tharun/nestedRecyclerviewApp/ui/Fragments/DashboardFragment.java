@@ -1,12 +1,9 @@
-package com.tharun.saathealthtestapp.ui.Fragments;
+package com.tharun.nestedRecyclerviewApp.ui.Fragments;
 
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TableLayout;
-import android.widget.Toolbar;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
@@ -15,16 +12,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
-import com.tharun.saathealthtestapp.R;
-import com.tharun.saathealthtestapp.adapter.BannerVideosPagerAdapter;
-import com.tharun.saathealthtestapp.adapter.MainRecyclerAdapter;
-import com.tharun.saathealthtestapp.model.AllCategory;
-import com.tharun.saathealthtestapp.model.BannerVideos;
-import com.tharun.saathealthtestapp.model.CategoryItem;
+import com.tharun.nestedRecyclerviewApp.R;
+import com.tharun.nestedRecyclerviewApp.adapter.BannerVideosPagerAdapter;
+import com.tharun.nestedRecyclerviewApp.adapter.MainRecyclerAdapter;
+import com.tharun.nestedRecyclerviewApp.model.AllCategory;
+import com.tharun.nestedRecyclerviewApp.model.BannerVideos;
+import com.tharun.nestedRecyclerviewApp.model.CategoryItem;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 import java.util.Timer;
 import java.util.TimerTask;
 

@@ -1,4 +1,4 @@
-package com.tharun.saathealthtestapp.adapter;
+package com.tharun.nestedRecyclerviewApp.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -10,9 +10,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.tharun.saathealthtestapp.R;
-import com.tharun.saathealthtestapp.model.AllCategory;
-import com.tharun.saathealthtestapp.model.CategoryItem;
+import com.tharun.nestedRecyclerviewApp.R;
+import com.tharun.nestedRecyclerviewApp.model.AllCategory;
+import com.tharun.nestedRecyclerviewApp.model.CategoryItem;
 
 import org.jetbrains.annotations.NotNull;
 

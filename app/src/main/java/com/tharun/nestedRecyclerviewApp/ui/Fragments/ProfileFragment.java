@@ -1,10 +1,9 @@
-package com.tharun.saathealthtestapp.ui.Fragments;
+package com.tharun.nestedRecyclerviewApp.ui.Fragments;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -17,7 +16,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.tharun.saathealthtestapp.R;
+import com.tharun.nestedRecyclerviewApp.R;
 
 import java.util.Objects;
 
@@ -43,6 +42,7 @@ public class ProfileFragment extends Fragment {
 
         userId = Objects.requireNonNull(fAuth.getCurrentUser()).getUid();
 
+        fAuth.getCurrentUser().getPhoneNumber();
         DocumentReference documentReference = fstore.collection("users").document(userId);
 
         documentReference.addSnapshotListener(new EventListener<DocumentSnapshot>() {

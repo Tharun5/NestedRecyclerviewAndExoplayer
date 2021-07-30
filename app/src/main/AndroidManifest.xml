@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.tharun.saathealthtestapp">
+    package="com.tharun.nestedRecyclerviewApp">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -10,10 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_app_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SaathealthTestApp">
-        <activity android:name=".SplashScreen"
+        android:theme="@style/Theme.TestApp">
+        <activity
+            android:name="com.tharun.nestedRecyclerviewApp.SplashScreen"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SaathealthTestApp.NoActionBar.Main">
+            android:theme="@style/Theme.TestApp.NoActionBar.Main">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,24 +22,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".VideoPlayerActivity"
+            android:name="com.tharun.nestedRecyclerviewApp.VideoPlayerActivity"
             android:screenOrientation="landscape"
-            android:theme="@style/Theme.SaathealthTestApp.NoActionBar.VideoPlayer" />
+            android:theme="@style/Theme.TestApp.NoActionBar.VideoPlayer" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.tharun.nestedRecyclerviewApp.RegisterActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SaathealthTestApp.NoActionBar" />
+            android:theme="@style/Theme.TestApp.NoActionBar" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.tharun.nestedRecyclerviewApp.LoginActivity"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SaathealthTestApp.NoActionBar">
+            android:theme="@style/Theme.TestApp.NoActionBar">
 
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.tharun.nestedRecyclerviewApp.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait"
-            android:theme="@style/Theme.SaathealthTestApp.NoActionBar.Main" />
+            android:theme="@style/Theme.TestApp.NoActionBar.Main" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,4 +1,4 @@
-package com.tharun.saathealthtestapp;
+package com.tharun.nestedRecyclerviewApp;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -7,9 +7,7 @@ import android.view.View;
 import android.view.Menu;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.Toolbar;
 
-import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 
 import androidx.annotation.NonNull;
@@ -27,7 +25,7 @@ import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.EventListener;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.FirebaseFirestoreException;
-import com.tharun.saathealthtestapp.databinding.ActivityMainBinding;
+import com.tharun.nestedRecyclerviewApp.databinding.ActivityMainBinding;
 
 import java.util.Objects;
 

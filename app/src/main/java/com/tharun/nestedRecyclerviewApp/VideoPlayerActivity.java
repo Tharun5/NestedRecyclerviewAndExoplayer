@@ -1,7 +1,6 @@
-package com.tharun.saathealthtestapp;
+package com.tharun.nestedRecyclerviewApp;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.RecyclerView;
 
 import android.net.Uri;
 import android.os.Bundle;

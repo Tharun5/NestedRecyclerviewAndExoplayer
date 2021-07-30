@@ -1,4 +1,4 @@
-package com.tharun.saathealthtestapp.model;
+package com.tharun.nestedRecyclerviewApp.model;
 
 public class CategoryItem {
 

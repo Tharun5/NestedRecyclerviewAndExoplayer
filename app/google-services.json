@@ -7,9 +7,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:623818851256:android:cf59c6c183ea259cf7854d",
+        "mobilesdk_app_id": "1:623818851256:android:01ed7d499d633db2f7854d",
         "android_client_info": {
-          "package_name": "com.tharun.saathealthtestapp"
+          "package_name": "com.tharun.nestedRecyclerviewApp"
         }
       },
       "oauth_client": [

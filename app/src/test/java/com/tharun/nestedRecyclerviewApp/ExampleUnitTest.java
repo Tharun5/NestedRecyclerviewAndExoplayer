@@ -1,4 +1,4 @@
-package com.tharun.saathealthtestapp;
+package com.tharun.nestedRecyclerviewApp;
 
 import org.junit.Test;
 
